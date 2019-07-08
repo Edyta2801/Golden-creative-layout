@@ -30,8 +30,10 @@ body {
   padding: 0 20px;
   margin: 0 auto;
 }
-.section {
-  padding: 96px 0;
+section {
+  padding: 30px 0;
+
+
 }
 .btn {
   display: inline-block;
@@ -57,16 +59,41 @@ body {
   color: $color-five;
   background-image: linear-gradient(90deg, $color-one 50%, transparent 50%);
 }
-// .btn-one:hover {
-//   color: $color-four;
-// }
+
+section .title,
+.description {
+  text-align: center;
+}
+section .title {
+  font-size: 30px;
+  font-family: $font-number, monospace;
+  margin: 40px 0 0 0;
+}
+section .description {
+  font-size: 12px;
+  font-family: $font-text;
+  color: $color-two;
+  margin: 5px 0 40px 0;
+  font-weight: normal;
+}
+section .card-text {
+  font-size: 12px;
+  color: $color-two;
+  font-family: $font-text;
+  font-weight: normal;
+  margin: 10px 0;
+}
+section .card-title {
+  font-size: 18px;
+  margin: 18px 0;
+}
+
+/* Navigation */
 
 .navigation .btn:hover {
   background-position: 0 100%;
   color: $color-four;
 }
-
-/* Navigation */
 
 .navigation {
   background-image: url("https://images.unsplash.com/photo-1517457210348-703079e57d4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
@@ -99,8 +126,8 @@ body {
   cursor: pointer;
 }
 
-.navigation .brand:hover{
-  color:$color-five;
+.navigation .brand:hover {
+  color: $color-five;
 }
 /* link pierwszego poziomu */
 .navigation li {
@@ -120,7 +147,6 @@ body {
 }
 .navigation a:hover {
   color: $color-one;
-  
 }
 
 /* Splash*/
@@ -163,22 +189,6 @@ body {
 }
 
 /* Services */
-.services .title,
-.description {
-  text-align: center;
-}
-.services .title {
-  font-size: 30px;
-  font-family: $font-number, monospace;
-  margin: 40px 0 0 0;
-}
-.services .description {
-  font-size: 12px;
-  font-family: $font-text;
-  color: $color-two;
-  margin: 5px 0 40px 0;
-  font-weight: normal;
-}
 
 .services i {
   width: 40px;
@@ -199,8 +209,16 @@ body {
 .col-md-4 {
   text-align: center;
 }
-.services p{
-  font-size:12px;
-  color:$color-two;
-  font-family: $font-text;
+
+/* Portfolio */
+.portfolio{
+  background:whitesmoke;
+}
+.card-body{
+  background:white;
+}
+
+.card-img{
+  height:350px;
+  width:300px;
 }
