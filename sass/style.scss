@@ -2,9 +2,9 @@
 $font-brand: "Pacifico", cursive;
 $font-header: "Signika Negative", sans-serif;
 $font-text: "Inconsolata", monospace;
-$font-number: "Abril Fatface", cursive;
+$font-number: "Abril Fatface", monospace;
 $color-one: gold;
-$color-two: #33d9b2;
+$color-two: grey;
 $color-three: #ff5252;
 $color-four: black;
 $color-five: #fff;
@@ -152,7 +152,44 @@ body {
   margin: 24px 0;
   font-weight: 900;
   font-size: 43px;
+  font-family: $font-number, monospace;
 }
 
 /* Services */
+.services .title,
+.description {
+  text-align: center;
+}
+.services .title {
+  font-size: 30px;
+  font-family: $font-number, monospace;
+  margin: 40px 0 0 0;
+}
+.services .description {
+  font-size: 12px;
+  font-family: $font-text;
+  color: $color-two;
+  margin: 5px 0 40px 0;
+  font-weight: normal;
+}
 
+.services i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border-color: $color-one;
+  border-style: solid;
+  line-height: 40px;
+  color: $color-one;
+  text-align: center;
+  align-items: center;
+}
+
+.col-md-4 {
+  text-align: center;
+}
+.services p{
+  font-size:12px;
+  color:$color-two;
+  font-family: $font-text;
+}
