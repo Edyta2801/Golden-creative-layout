@@ -1,0 +1,167 @@
+/* Variables */
+/* Global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #2c2c54;
+  font-family: "Inconsolata", monospace;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 96px 0;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24 auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: "Inconsolata", monospace;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-position: 100% 0;
+  background-size: 300%;
+  transition: all 1s;
+}
+
+.btn-one {
+  border-color: gold;
+  color: #fff;
+  background-image: linear-gradient(90deg, gold 50%, transparent 50%);
+}
+
+.btn:hover {
+  background-position: 0 100%;
+  color: #2c2c54;
+}
+
+/* Navigation */
+.navigation {
+  background-color: #2c2c54;
+  padding: 12px 0;
+  color: #fff;
+}
+
+.navigation ul {
+  padding: 0;
+  margin: 0;
+  margin-left: 400px;
+  list-style-type: none;
+}
+
+.navigation .container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+}
+
+.navigation .brand {
+  color: gold;
+  font: 22px cursive;
+}
+
+/* link pierwszego poziomu */
+.navigation li {
+  display: inline-block;
+  margin-right: 36px;
+  position: relative;
+  font-size: 16px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+.navigation a:hover {
+  color: #33d9b2;
+}
+
+.navigation ul ul li {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.navigation ul ul {
+  display: none;
+  position: absolute;
+  background: #fff;
+  margin-left: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 12px;
+}
+
+.navigation li:hover ul {
+  display: block;
+  text-align: center;
+}
+
+/* linki IIgo poziomu */
+.navigation li li a {
+  color: gold;
+  display: block;
+}
+
+.navigation li li a:hover {
+  color: #33d9b2;
+}
+
+/* Splash*/
+.splash {
+  background-image: url("https://images.pexels.com/photos/908298/pexels-photo-908298.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  min-height: 500px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.splash-inner {
+  margin: auto;
+  max-width: 70%;
+  text-align: center;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 30px;
+  word-spacing: 24px;
+  line-height: 1.2;
+  font: cursive;
+}
+
+.page-subtitle {
+  margin: 24px 0;
+  font-weight: 900;
+  font-size: 43px;
+}
+
+.page-title span {
+  font-style: italic;
+  font-weight: 900;
+}
+/*# sourceMappingURL=style.css.map */
