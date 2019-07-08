@@ -96,6 +96,11 @@ body {
   font-size: 30px;
   font-family: $font-brand;
   font-style: oblique;
+  cursor: pointer;
+}
+
+.navigation .brand:hover{
+  color:$color-five;
 }
 /* link pierwszego poziomu */
 .navigation li {
@@ -111,9 +116,11 @@ body {
   padding-left: 20px;
   font-size: 15px;
   font-weight: 900;
+  cursor: pointer;
 }
 .navigation a:hover {
   color: $color-one;
+  
 }
 
 /* Splash*/
@@ -183,6 +190,10 @@ body {
   color: $color-one;
   text-align: center;
   align-items: center;
+  cursor: pointer;
+}
+.services i:hover {
+  color: $color-four;
 }
 
 .col-md-4 {
