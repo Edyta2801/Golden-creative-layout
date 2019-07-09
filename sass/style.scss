@@ -32,8 +32,6 @@ body {
 }
 section {
   padding: 30px 0;
-
-
 }
 .btn {
   display: inline-block;
@@ -211,14 +209,29 @@ section .card-title {
 }
 
 /* Portfolio */
-.portfolio{
-  background:whitesmoke;
+.portfolio {
+  background: whitesmoke;
+  text-align: center;
 }
-.card-body{
-  background:white;
+.portfolio .card-body {
+  margin: 0 10px;
+  background: white;
+  max-width: 300px;
 }
 
-.card-img{
-  height:350px;
-  width:300px;
+.card.col-md-4 {
+  width: 100%;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.card-img {
+  height: 350px;
+  width: 300px;
+}
+.portfolio .card-title {
+  margin: 18px 0 0 0;
+}
+.portfolio .card-text {
+  margin: 0 0 10px 0;
 }
