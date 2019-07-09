@@ -226,4 +226,39 @@ section .card-title {
 .portfolio .card-text {
   margin: 0 0 10px 0;
 }
+
+/* Footer */
+.footer ul {
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: start;
+      align-items: flex-start;
+  padding: 0;
+}
+
+.footer a {
+  display: -ms-flexbox;
+  display: flex;
+  width: 16px;
+  height: 16px;
+  font-size: 0;
+  color: black;
+}
+
+.footer li {
+  font-size: 0;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 10px 10px 0;
+}
+
+.footer i {
+  font-size: 16px;
+  color: black;
+}
 /*# sourceMappingURL=style.css.map */
