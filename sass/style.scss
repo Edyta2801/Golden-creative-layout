@@ -228,6 +228,11 @@ section .card-title {
 .card-img {
   height: 350px;
   width: 300px;
+  position: relative;
+}
+.portfolio .card-body{
+  position: absolute;
+  width: 100%;
 }
 .portfolio .card-title {
   margin: 18px 0 0 0;
