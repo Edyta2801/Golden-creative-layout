@@ -102,13 +102,14 @@ section .card-title {
 .navigation ul {
   padding: 0;
   margin: 0;
-  margin-left: 400px;
   list-style-type: none;
 }
 
 .navigation .container {
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
 }
 
 .navigation .brand {
@@ -217,16 +218,21 @@ section .card-title {
 
 .card-img {
   height: 350px;
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
   position: relative;
   line-height: 0px;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .portfolio .card-body {
-  position: absolute;
   width: 100%;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 300px;
 }
 
 .portfolio .card-title {
@@ -300,13 +306,13 @@ section .card-title {
     -ms-flex-direction: column;
         flex-direction: column;
   }
-  .portfolio .card-image {
+  .portfolio .card-img {
     height: 250px;
     width: 100%;
     position: relative;
+    min-width: 300px;
   }
   .portfolio .card-body {
-    position: absolute;
     width: 100%;
   }
 }
