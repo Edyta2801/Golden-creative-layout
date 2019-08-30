@@ -212,17 +212,21 @@ section .card-title {
   width: 100%;
   padding: 30px;
   margin-bottom: 50px;
+  line-height: normal;
 }
 
 .card-img {
   height: 350px;
   width: 300px;
   position: relative;
+  line-height: 0px;
 }
 
 .portfolio .card-body {
   position: absolute;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .portfolio .card-title {
@@ -289,5 +293,21 @@ section .card-title {
 
 .footer li:hover {
   transform: scale(1.2);
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .portfolio .card-image {
+    height: 250px;
+    width: 100%;
+    position: relative;
+  }
+  .portfolio .card-body {
+    position: absolute;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
