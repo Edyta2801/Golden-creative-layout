@@ -2,7 +2,8 @@
 > Layout creative-agency
 
 
-## See [DEMO](https://edyta2801.github.io/Landing-page-with-task-runner/)
+## See [DEMO](https://edyta2801.github.io/Golden-creative-layout/)
+
 
 ![Example screenshot](./img_.png)
 
